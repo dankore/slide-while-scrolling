@@ -64,6 +64,15 @@
     a:hover {
       color: #f1f1f1;
     }
+    @media screen and (max-width: 450px) {
+        .site-wrap { margin-left: 200px; }
+         nav { 
+           padding: 40px 0px 0px 0px;
+           width: 200px;
+           margin-left: 0px;
+           }
+      
+    }
     @media screen and (max-width: 750px) {
         .site-wrap { margin-left: 200px; }
          nav { 
