@@ -1,6 +1,6 @@
     html {
       box-sizing: border-box;
-      background: #ffc600;
+      background: #F5F5F5;
       font-family: 'helvetica neue';
       font-size: 20px;
       font-weight: 200;
@@ -18,7 +18,7 @@
     }
     .site-wrap {
       max-width: 700px;
-      margin: 100px auto;
+      margin-left: 500px;
       background: white;
       padding: 40px;
       text-align: justify;
@@ -45,4 +45,31 @@
     .slide-in.active {
       opacity: 1;
       transform: translateX(0%) scale(1);
+    }
+    nav {
+      padding-top: 40px;
+      width: 200px;
+      height: 100%;
+      background-color: #111;
+      margin-left: 300px;
+      position: fixed;
+    }
+    nav > a {
+      color: #818181;
+      font-size: 25px;
+      padding: 10px 10px 12px 40px;
+      display: block;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #f1f1f1;
+    }
+    @media screen and (max-width: 750px) {
+        .site-wrap { margin-left: 200px; }
+         nav { 
+           padding: 40px 0px 0px 0px;
+           width: 200px;
+           margin-left: 0px;
+           }
+      
     }
